@@ -1,0 +1,18 @@
+class TypeConversionDemo {
+    public static void main(String[] args) {
+
+        int intValue = 25;
+        double doubleValue = intValue;
+
+        System.out.println("Before conversion (int): " + intValue);
+        System.out.println("After conversion (double): " + doubleValue);
+
+        System.out.println();
+
+        double originalDouble = 45.78;
+        int convertedInt = (int) originalDouble;
+
+        System.out.println("Before casting (double): " + originalDouble);
+        System.out.println("After casting (int): " + convertedInt);
+    }
+}
