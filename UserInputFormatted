@@ -1,0 +1,21 @@
+public class UserInputFormatted {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter an integer: ");
+        int number = sc.nextInt();
+
+        System.out.print("Enter a floating point number: ");
+        float decimal = sc.nextFloat();
+
+        System.out.print("Enter a single character: ");
+        char ch = sc.next().charAt(0);
+
+        System.out.printf(
+            "You entered integer %d, floating point number %.2f, and character '%c'.",
+            number, decimal, ch
+        );
+
+        sc.close();
+    }
+}
