@@ -1,0 +1,16 @@
+public class TypePromotion {
+    public static void main(String[] args) {
+
+        byte b = 10;
+        char c = 'A';   
+        int i = 20;
+
+        int result = b + c + i;
+
+        System.out.println("byte value = " + b);
+        System.out.println("char value = " + c);
+        System.out.println("int value = " + i);
+
+        System.out.println("\nResult of expression (b + c + i) = " + result);
+    }
+}
