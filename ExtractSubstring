@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class ExtractSubstring {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter String: ");
+        String str = sc.nextLine();
+
+        System.out.print("Enter start index: ");
+        int start = sc.nextInt();
+
+        System.out.print("Enter no. of characters to extract: ");
+        int count = sc.nextInt();
+
+        String result = str.substring(start, start + count);
+
+        System.out.println("Substring = " + result);
+
+        sc.close();
+    }
+}
